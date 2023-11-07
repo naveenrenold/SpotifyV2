@@ -1,0 +1,28 @@
+{
+  "name": "spotifyv2",
+  "version": "1.0.0",
+  "description": "Free spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start":"node ./files/main.js",
+    "dev":"nodemon ./files/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenrenold/SpotifyV2.git"
+  },
+  "keywords": [
+    "Spotify"
+  ],
+  "author": "Naveen Renold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveenrenold/SpotifyV2/issues"
+  },
+  "homepage": "https://github.com/naveenrenold/SpotifyV2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
