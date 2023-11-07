@@ -1,10 +1,2 @@
-Spotify with node and angular
-
-Start with API
-
-Page design 
-
-Header List:
-Home-serves folder with playlist and can play
-placeholder 1
-placeholder 2
+1. Node api call to get all playluist and display
+spotify/get-playlist
