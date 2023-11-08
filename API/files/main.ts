@@ -1,9 +1,11 @@
 import http from 'http';
+import fs from 'fs';
 
 
 function playListAPI(request:string) : string
-{    
-    return 'inside call:)))';
+{
+    const fileList=fs.readdirSync("E:\\youtubeVideos");        
+    return fileList.join();
 }
 const server=http.createServer((req,res)=>{
     switch(req.url)
