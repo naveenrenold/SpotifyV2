@@ -1,1 +1,9 @@
-
+<p>
+  Hi This is playlist
+  Click Here --></p>
+  <button (click)="callPlayList()">PlaylistActivate!</button>
+  <ol>
+    <li *ngFor="let item of playList">
+      {{item}}
+    </li>
+    </ol>
