@@ -17,7 +17,7 @@ ngOnInit(): void {
 }
 callPlayList()
 {
-  this.httpClient.get('http://localhost:4201').subscribe((res:any)=>{
+  this.httpClient.get('http://localhost:3000/playlist').subscribe((res:any)=>{
     this.playList=res;
     this.playList.forEach(element => {
       console.log(element);
