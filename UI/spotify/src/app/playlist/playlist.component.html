@@ -1,9 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="playlist.component.css" media="screen">
+    <title>Spotify mfs
+      </title>
+      </head>
+  <body bgcolor="black">
+<div #tags display="flex" width="100%">
+<div style="display:inline-block;width:10%;">A</div>
+  <ul class="text" style="display:flex;flex-direction:row;list-style: circle;" width="80%">
+  <li style="display:flex;width:10%;">All</li>
+  <li style="display:flex;width:10%;">Recommended</li>
+  <li style="display:flex;width:10%;">Tamil</li>
+  <li style="display:flex;width:10%;">Anime</li>
+  <li style="display:flex;width:10%;">English</li>
+  </ul>
+  </div>
+  <div style="display:flex;width:10%;">A</div>
+  <hr color="green">
+  <div #recommended display="flex">
+
+  </div>
+  <div #trending display="flex">
+
+  </div>
+  <div #footer display="flex">
+
+  </div>
+  </body>
+  </html>
+
+
+
+
+
+
+
+<!--
 <p>
   Hi This is playlist
-  Click Here --></p>
+  Click Here </p>
   <button (click)="callPlayList()">PlaylistActivate!</button>
   <ol>
     <li *ngFor="let item of playList">
       {{item}}
     </li>
     </ol>
+  -->

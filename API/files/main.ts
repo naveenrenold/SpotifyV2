@@ -1,9 +1,6 @@
 import http from 'http';
 import fs from 'fs';
 
-
-
-
 function playListAPI(request:string,path="/media/naveen/28348E46348E174A/youtubeVideos") : string
 {
     //const fileList=fs.readdirSync("E:\\youtubeVideos");        
